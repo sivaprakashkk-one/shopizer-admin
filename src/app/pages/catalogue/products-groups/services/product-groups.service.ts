@@ -16,7 +16,7 @@ export class ProductGroupsService {
 
   getListOfProductGroups(): Observable<any> {
     const store = this.storageService.getMerchant();
-    return this.crudService.get(`/v1/private/products/groups`, { store });
+    return this.crudService.get(`/v1/private/product/groups`, { store });
   }
 
   // TODO

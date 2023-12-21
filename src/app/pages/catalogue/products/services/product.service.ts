@@ -49,7 +49,7 @@ export class ProductService {
   }
 
   getProductTypes(): Observable<any> {
-    return this.crudService.get(`/v1/private/products/types`);
+    return this.crudService.get(`/v1/private/product/types`);
   }
 
   checkProductSku(code): Observable<any> {

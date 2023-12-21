@@ -9,7 +9,7 @@ export const environment = {
     //MARKETPLACE | BTB | STANDARD
     mode: 'STANDARD',
     //API URL
-    apiUrl: process.env.APP_BASE_URL || 'http://aws-demo.shopizer.com:8080/api',
+    apiUrl: process.env.APP_BASE_URL || 'http://localhost:8080/api',
     shippingApi: process.env.APP_SHIPPING_URL || 'http://localhost:8080/api',
     client: {
         language: {
